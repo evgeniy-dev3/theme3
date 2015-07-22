@@ -27,16 +27,7 @@
     'container' => '',
     'menu_class' => ''
 ) ); ?>
-           <!-- <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">The Team</a></li>
-                <li><a href="#">Testimonials</a></li>
-                <li><a href="#">Our Work</a></li>
-                <li><a href="#">Our Videos</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>-->
+
             <div class="serach">
                 <form action="">
                     <input class="search-txt" type="text" value="Search" onBlur="if(this.value=='')this.value='Search'" onFocus="if(this.value=='Search')this.value=''" />
