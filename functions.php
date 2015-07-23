@@ -78,6 +78,32 @@ register_nav_menus(array(
 
 
 
+/**
+ * Слайдер на главной
+ */
+add_action('init', 'slider_index');
+function slider_index(){
+    register_post_type('slider',array(
+        'public' => true,
+        'supports' => array('title', 'editor', 'thumbnail'),
+        'menu_position' => 100,
+        'menu_icon' => admin_url() . 'images/media-button-2x.png',
+        'labels' => array(
+            'name' => 'Слайдеры',
+            'all_items' => 'Все слайдеры',
+            'add_new' => 'Новый слайдер',
+            'add_new_item' => 'Добавить слайдер'
+
+        )
+    ));
+
+}
+
+
+/**
+ * Поддержка миниатюр
+ */
+add_theme_support('post-thumbnails');
 
 
 
