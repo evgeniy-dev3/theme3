@@ -108,6 +108,24 @@ add_theme_support('post-thumbnails');
 
 
 
+/**
+ *  список меток
+ */
+function my_list_tags(){
+    $tags= get_the_tags();
+    $tag_str = null;
+    if($tags){
+        $tag_str = '<p>';
+        foreach($tags as $tag){
+            $tag_str .= $tag ->name . ', ';
+        }
+        $tag_str = rtrim($tag_str, ', ');
+        $tag_str .= '</p>';
+    }
+    echo $tag_str;
+}
+
+
 
 
 

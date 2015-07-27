@@ -89,7 +89,8 @@ $posts_about = new WP_Query(array('cat' => $id, 'posts_per_page' => 4, 'order' =
         <div class="our-work-short">
             <img src="<?php bloginfo('template_url'); ?>/images/our-work-pic.png" alt="" />
             <h3><?php the_title(); ?></h3>
-            <p>Photoshop, Lightroom</p>
+            <?php my_list_tags(); ?>
+            <!--<p>Photoshop, Lightroom</p>-->
         </div>
         <img class="our-work-img" src=" <?php echo get_post_meta($post->ID, 'portfolio_img', true); ?>" alt="" />
     </a>
