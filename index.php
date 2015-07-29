@@ -31,7 +31,11 @@
 <?php else: ?>
 <!-- no post found -->
 <?php endif; ?>
+       <!--КОНЕЦ СЛАЙДЕР-->
 
+
+
+        <!--БЛОК из четырех записей на главной-->
     <div class="content-main">
 <?php
 $id = 3;  //номер категории
@@ -55,7 +59,7 @@ $posts_about = new WP_Query(array('cat' => $id, 'posts_per_page' => 4));
 
 
 
-
+        <!--РАЗДЕЛ    Our Latest Work-->
 <?php
 $id = 4;  //номер категории
 $posts_about = new WP_Query(array('cat' => $id, 'posts_per_page' => 4, 'order' => 'DESC'));
@@ -90,6 +94,10 @@ $posts_about = new WP_Query(array('cat' => $id, 'posts_per_page' => 4, 'order' =
 <?php else: ?>
      <h1>Здесь будет превью статей</h1>
 <?php endif; ?>
+
+
+
+
 
 
 

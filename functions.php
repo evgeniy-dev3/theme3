@@ -138,19 +138,4 @@ function my_list_tags(){
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ?>

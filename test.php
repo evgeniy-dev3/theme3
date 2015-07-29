@@ -43,157 +43,57 @@
         </div>
     </div>
 
-    <div class="slider">
-        <div class="flexslider">
-            <ul class="slides">
-                <li>
-                    <div class="slide-content">
-                        <h1>Super Powerful Theme,<br />
-                            With High Quality Standards</h1>
-                        <h3>Multi-Purpose Business WordPress Theme</h3>
-                        <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nullam id dolor id<br /> nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in,<br /> egestas eget quam. Donec ullamcorper nulla non metus auctor fringilla.</p>
-                        <p><a href="#"><img src="images/slide-btn.png" /></a></p>
-                    </div>
-                    <img src="images/slide1.jpg" />
-                </li>
-                <li>
-                    <div class="slide-content">
-                        <h1>Super Powerful Theme,<br />
-                            With High Quality Standards</h1>
-                        <h3>Multi-Purpose Business WordPress Theme</h3>
-                        <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nullam id dolor id<br /> nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in,<br /> egestas eget quam. Donec ullamcorper nulla non metus auctor fringilla.</p>
-                        <p><a href="#"><img src="images/slide-btn.png" /></a></p>
-                    </div>
-                    <img src="images/slide1.jpg" />
-                </li>
-                <li>
-                    <div class="slide-content">
-                        <h1>Super Powerful Theme,<br />
-                            With High Quality Standards</h1>
-                        <h3>Multi-Purpose Business WordPress Theme</h3>
-                        <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nullam id dolor id<br /> nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in,<br /> egestas eget quam. Donec ullamcorper nulla non metus auctor fringilla.</p>
-                        <p><a href="#"><img src="images/slide-btn.png" /></a></p>
-                    </div>
-                    <img src="images/slide1.jpg" />
-                </li>
-                <li>
-                    <div class="slide-content">
-                        <h1>Super Powerful Theme,<br />
-                            With High Quality Standards</h1>
-                        <h3>Multi-Purpose Business WordPress Theme</h3>
-                        <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nullam id dolor id<br /> nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in,<br /> egestas eget quam. Donec ullamcorper nulla non metus auctor fringilla.</p>
-                        <p><a href="#"><img src="images/slide-btn.png" /></a></p>
-                    </div>
-                    <img src="images/slide1.jpg" />
-                </li>
-            </ul>
-        </div>
-    </div>
-
-    <div class="under-slider">
-        <h1>Extended is immensely powerful, flexible and nicely responsive.</h1>
-        <p>You can easily add modules to the page with our Front-end Drag & Drop functionality. Page layouts began to be infinite and you can follow your creativity. The header is very flexible and allow you to upload backgrounds as well as choosing between few header layouts. Creating and updating your theme has never been that easy and it is fun to play with. Take a tour at all the pages and discover what a great and beautiful theme has to offer.</p>
+    <div class="page-title">
+        <h1>About Us</h1>
+        <p class="page-title-map"><a href="#">Home</a>  /  About Us</p>
     </div>
 
     <div class="content-main">
-        <div class="whatwedo">
+
+        <img src="images/about-img.jpg" class="img-lefter" alt="" />
+        <h1 class="center-n"><span class="hnc">Why Choose Extended?</span></h1>
+        <p>Extended is a very powerful premium WordPress theme created with the users point of view in mind and with a lot of attention to details. It has what we believe the most unique and advance front-end admin to help anyone looking to create a website in no time and with simplicity. </p>
+
+        <p>We have created this tool to avoid users going back and forth between the back-end and the front-end side to add pages or to update some settings for example, which could take a lot of time. We also believe that seeing what you want while building the page is very powerful and avoid mistakes and frustrations.</p>
+
+        <p>With our front-end admin you can create new pages with all the necessary field like the title, excerpt, images, categories or even the page layout with the choice of the sidebar you want, you can publish, unpublished or even delete the pages you’ve created directly on the front-end.</p>
+
+        <p>You can create unlimited sidebars with our sidebar generator. You can change the background of your site or even upload one, choose between more than 500 Google fonts for most of the typo elements. We have also create a drag & drop functionality to re-size the header as wide and high as you want, you can move around the logo and the menu where you’d like. And all of that still without leaving the front-end of your site.</p>
+
+        <h1 class="center-n"><span class="hnc">Meet Our Team</span> <span class="hnl">/ <a href="#">View The Team</a></span></h1>
+        <div class="our-team-main">
             <div>
-                <h1><span>Flexibility</span></h1>
-                <p>Fusce dapibus, tellus ac cursus como, tortor mauris condimentum nibh, ut fermentum massa justo sit amet isus.</p>
+                <h2><a href="#"><img src="images/team1.jpg" alt="Darren Kimbell" /></a>
+                    <br />
+                    Darren Kimbell<br />
+                    <span>Business Marketing</span></h2>
+                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas faucibus mollis interdum. Fusce dapibus, tellus ac cursus commodo, tortor </p>
             </div>
             <div>
-                <h1><span>Mobile Friendly</span></h1>
-                <p>Fusce dapibus, tellus ac cursus como, tortor mauris condimentum nibh, ut fermentum massa justo sit amet isus.</p>
+                <h2><a href="#"><img src="images/team2.jpg" alt="Darren Kimbell" /></a>
+                    <br />
+                    Allan Pesola<br />
+                    <span>Developer</span></h2>
+                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas faucibus mollis interdum. Fusce dapibus, tellus ac cursus commodo, tortor </p>
             </div>
             <div>
-                <h1><span>Very Powerful</span></h1>
-                <p>Fusce dapibus, tellus ac cursus como, tortor mauris condimentum nibh, ut fermentum massa justo sit amet isus.</p>
-            </div>
-            <div>
-                <h1><span>Drag Modules</span></h1>
-                <p>Fusce dapibus, tellus ac cursus como, tortor mauris condimentum nibh, ut fermentum massa justo sit amet isus.</p>
+                <h2><a href="#"><img src="images/team3.jpg" alt="Darren Kimbell" /></a>
+                    <br />
+                    Lenore Hilker<br />
+                    <span>Designer</span></h2>
+                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas faucibus mollis interdum. Fusce dapibus, tellus ac cursus commodo, tortor </p>
             </div>
         </div>
 
-        <h1 class="center-n"><span class="hnc">Our Latest Work</span> <span class="hnl">/ <a href="#">View All Portfolio</a></span></h1>
-        <div class="our-works-main">
-            <div class="our-works">
-                <a class="our-work-href" href="#">
-                    <div class="our-work-short">
-                        <img src="images/our-work-pic.png" alt="" />
-                        <h3>Parturient Purus Bibendum</h3>
-                        <p>Photoshop, Lightroom</p>
-                    </div>
-                    <img class="our-work-img" src="images/our-work1.jpg" alt="" />
-                </a>
-            </div>
-            <div class="our-works">
-                <a class="our-work-href" href="#">
-                    <div class="our-work-short">
-                        <img src="images/our-work-pic.png" alt="" />
-                        <h3>Parturient Purus Bibendum</h3>
-                        <p>Photoshop, Lightroom</p>
-                    </div>
-                    <img class="our-work-img" src="images/our-work2.jpg" alt="" />
-                </a>
-            </div>
-            <div class="our-works">
-                <a class="our-work-href" href="#">
-                    <div class="our-work-short">
-                        <img src="images/our-work-pic.png" alt="" />
-                        <h3>Parturient Purus Bibendum</h3>
-                        <p>Photoshop, Lightroom</p>
-                    </div>
-                    <img class="our-work-img" src="images/our-work3.jpg" alt="" />
-                </a>
-            </div>
-            <div class="our-works">
-                <a class="our-work-href" href="#">
-                    <div class="our-work-short">
-                        <img src="images/our-work-pic.png" alt="" />
-                        <h3>Parturient Purus Bibendum</h3>
-                        <p>Photoshop, Lightroom</p>
-                    </div>
-                    <img class="our-work-img" src="images/our-work4.jpg" alt="" />
-                </a>
-            </div>
-        </div>
+        <h1 class="center-n"><span class="hnc">Our Clients</span></h1>
 
-        <div class="advance">
-
-            <div class="why-us">
-                <!-- Accordion -->
-                <h1 class="center-n"><span class="hnc">Why Choose Us</span></h1>
-                <div id="accordion">
-                    <h3>Accordion Title 1</h3>
-                    <div>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas faucibus mollis interdum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas sed diam eget risus varius blandit sit amet non magna.</div>
-
-                    <h3>Accordion Title 2</h3>
-                    <div>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas faucibus mollis interdum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas sed diam eget risus varius blandit sit amet non magna.</div>
-
-                    <h3>Accordion Title 3</h3>
-                    <div>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas faucibus mollis interdum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas sed diam eget risus varius blandit sit amet non magna.</div>
-                </div>
-
-            </div>
-
-            <div class="our-services">
-                <!-- Tabs -->
-                <h1 class="center-n"><span class="hnc">Our Services</span></h1>
-                <div id="tabs">
-                    <ul>
-                        <li><a href="#tabs-1">Tab Title 1</a></li>
-                        <li><a href="#tabs-2">Tab Title 2</a></li>
-                        <li><a href="#tabs-3">Tab Title 3</a></li>
-                        <li><a href="#tabs-4">Tab Title 4</a></li>
-                    </ul>
-                    <div id="tabs-1"><img class="img-righter" src="images/tabs-img1.jpg" alt="" />Cum sociis natoque penatibus et magnis dis partent montes, nascetur ridiculus mus. Maecenas faucibus mollis interdum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cum sociis natoque penatibus et magnis disamet non magna.</div>
-                    <div id="tabs-2">Phasellus mattis tincidunt nibh. Cras orci urna, blandit id, pretium vel, aliquet ornare, felis. Maecenas scelerisque sem non nisl. Fusce sed lorem in enim dictum bibendum.</div>
-                    <div id="tabs-3">Nam dui erat, auctor a, dignissim quis, sollicitudin eu, felis. Pellentesque nisi urna, interdum eget, sagittis et, consequat vestibulum, lacus. Mauris porttitor ullamcorper augue.</div>
-                    <div id="tabs-4">Nam dui erat, auctor a, dignissim quis, sollicitudin eu, felis. Pellentesque nisi urna, interdum eget, sagittis et, consequat vestibulum, lacus. Mauris porttitor ullamcorper augue.</div>
-                </div>
-            </div>
-
+        <div class="our-clients">
+            <a href="#"><img src="images/client1.jpg" alt="" /></a>
+            <a href="#"><img src="images/client2.jpg" alt="" /></a>
+            <a href="#"><img src="images/client3.jpg" alt="" /></a>
+            <a href="#"><img src="images/client4.jpg" alt="" /></a>
+            <a href="#"><img src="images/client5.jpg" alt="" /></a>
+            <a href="#"><img src="images/client6.jpg" alt="" /></a>
         </div>
 
     </div>
@@ -235,5 +135,12 @@
 <script src="js/jquery.mousewheel.js"></script>
 <script defer src="js/demo.js"></script>
 <script src="js/jquery-ui-1.9.2.custom.js"></script>
+
+<script type="text/javascript" src="js/jquery.pixlayout.0.9.7.js"></script>
+<script type="text/javascript">
+    $(function(){
+        $.pixlayout1({clip: true, src: "maket.jpg", show:true, center:true, top:0, left:0, pervious: false});
+    });
+</script>
 </body>
 </html>
