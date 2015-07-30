@@ -5,19 +5,25 @@
     <p class="page-title-map"><a href="<?php echo home_url(); ?>">Home</a>  /  <?php single_cat_title(); ?></p>
     </div>
 
+                  <!--  ВЫВОД МЕТОК-->
+
+<?php
+
+$cat_id = get_query_var('cat');      // получаем номер рубрики с которой работает
+$tags = get_tags_in_cat($cat_id);   // принимает результаты выполения функции
 
 
-    <div class="page-nav">
-        <ul>
-            <li><a href="#">All</a></li>
-            <li><a href="#">Web Design</a></li>
-            <li><a href="#">Marketing</a></li>
-            <li><a href="#">Logo</a></li>
-            <li><a href="#">Branding</a></li>
-            <li><a href="#">Print</a></li>
-            <li><a href="#">Photography</a></li>
-        </ul>
-    </div>
+if( $tags){
+    echo '<div class="page-nav">';
+        echo '<ul>';
+            foreach($tags as $tag_id => $tag_name){
+                echo '<li><a href="' . get_tag_link($tag_id) . '">' . $tag_name . '</a></li>';
+            }
+        echo '</ul>';
+    echo '</div>';
+}
+
+?>
 
 
 

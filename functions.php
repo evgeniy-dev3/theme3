@@ -141,6 +141,27 @@ function my_list_tags(){
 }
 
 
+/**
+ * Метки категории
+ */
+function get_tags_in_cat($cat_id){
+    $posts= get_posts(array(        //с помощью get_posts получаем массив все записи категории
+           'category' => $cat_id,
+           'numberposts' => -1    // убираем ограничение записей, нам нужны все
+        ));
+    $tags = array();    // Объявляем массив тегов готорый будет заполнять в цикле
+
+    foreach($posts as $post){     // проходимся по $posts все записи помещаем в $post
+        $post_tags = get_the_tags($post->ID);    // получаем все метки и складываем в $post_tags
+        if( !empty($post_tags)){   // если метки получены
+            foreach($post_tags as $tag){   // проходимся по массиву и складываем в $tag
+                $tags[$tag->term_id] = $tag->name;
+            }
+        }
+    }
+    asort($tags);  // сортируем вывод по алфавиту
+    return $tags;
+}
 
 
 
