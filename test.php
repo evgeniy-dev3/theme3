@@ -1,12 +1,3 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <link rel="stylesheet" href="flexslider.css" type="text/css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="css/jquery-ui-1.9.2.custom.css" />
-    <title>Extendet</title>
-</head>
 
 <body>
 <div class="karkas">
@@ -44,57 +35,60 @@
     </div>
 
     <div class="page-title">
-        <h1>About Us</h1>
-        <p class="page-title-map"><a href="#">Home</a>  /  About Us</p>
+        <h1>Our Work</h1>
+        <p class="page-title-map"><a href="#">Home</a>  /  Our Work</p>
+    </div>
+
+    <div class="page-nav">
+        <ul>
+            <li><a href="#">All</a></li>
+            <li><a href="#">Web Design</a></li>
+            <li><a href="#">Marketing</a></li>
+            <li><a href="#">Logo</a></li>
+            <li><a href="#">Branding</a></li>
+            <li><a href="#">Print</a></li>
+            <li><a href="#">Photography</a></li>
+        </ul>
     </div>
 
     <div class="content-main">
 
-        <img src="images/about-img.jpg" class="img-lefter" alt="" />
-        <h1 class="center-n"><span class="hnc">Why Choose Extended?</span></h1>
-        <p>Extended is a very powerful premium WordPress theme created with the users point of view in mind and with a lot of attention to details. It has what we believe the most unique and advance front-end admin to help anyone looking to create a website in no time and with simplicity. </p>
-
-        <p>We have created this tool to avoid users going back and forth between the back-end and the front-end side to add pages or to update some settings for example, which could take a lot of time. We also believe that seeing what you want while building the page is very powerful and avoid mistakes and frustrations.</p>
-
-        <p>With our front-end admin you can create new pages with all the necessary field like the title, excerpt, images, categories or even the page layout with the choice of the sidebar you want, you can publish, unpublished or even delete the pages you’ve created directly on the front-end.</p>
-
-        <p>You can create unlimited sidebars with our sidebar generator. You can change the background of your site or even upload one, choose between more than 500 Google fonts for most of the typo elements. We have also create a drag & drop functionality to re-size the header as wide and high as you want, you can move around the logo and the menu where you’d like. And all of that still without leaving the front-end of your site.</p>
-
-        <h1 class="center-n"><span class="hnc">Meet Our Team</span> <span class="hnl">/ <a href="#">View The Team</a></span></h1>
-        <div class="our-team-main">
-            <div>
-                <h2><a href="#"><img src="images/team1.jpg" alt="Darren Kimbell" /></a>
-                    <br />
-                    Darren Kimbell<br />
-                    <span>Business Marketing</span></h2>
-                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas faucibus mollis interdum. Fusce dapibus, tellus ac cursus commodo, tortor </p>
+        <div class="artical-anons-main">
+            <img src="images/artical1.jpg" alt="" class="artical-img" />
+            <div class="artical-head">
+                <h1>Risus Parturient Malesuada</h1>
+                <p>Print, Marketing, Branding</p>
             </div>
-            <div>
-                <h2><a href="#"><img src="images/team2.jpg" alt="Darren Kimbell" /></a>
-                    <br />
-                    Allan Pesola<br />
-                    <span>Developer</span></h2>
-                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas faucibus mollis interdum. Fusce dapibus, tellus ac cursus commodo, tortor </p>
-            </div>
-            <div>
-                <h2><a href="#"><img src="images/team3.jpg" alt="Darren Kimbell" /></a>
-                    <br />
-                    Lenore Hilker<br />
-                    <span>Designer</span></h2>
-                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas faucibus mollis interdum. Fusce dapibus, tellus ac cursus commodo, tortor </p>
-            </div>
+            <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Nulla vitae elit libero, a pharetra augue. Vestibulum id ligula porta felis euismod semper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id </p>
+            <p><a href="#" class="read-more">Read more</a></p>
         </div>
 
-        <h1 class="center-n"><span class="hnc">Our Clients</span></h1>
-
-        <div class="our-clients">
-            <a href="#"><img src="images/client1.jpg" alt="" /></a>
-            <a href="#"><img src="images/client2.jpg" alt="" /></a>
-            <a href="#"><img src="images/client3.jpg" alt="" /></a>
-            <a href="#"><img src="images/client4.jpg" alt="" /></a>
-            <a href="#"><img src="images/client5.jpg" alt="" /></a>
-            <a href="#"><img src="images/client6.jpg" alt="" /></a>
+        <div class="artical-anons-main">
+            <img src="images/artical2.jpg" alt="" class="artical-img" />
+            <div class="artical-head">
+                <h1>Risus Parturient Malesuada</h1>
+                <p>Print, Marketing, Branding</p>
+            </div>
+            <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Nulla vitae elit libero, a pharetra augue. Vestibulum id ligula porta felis euismod semper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id </p>
+            <p><a href="#" class="read-more">Read more</a></p>
         </div>
+
+        <div class="artical-anons-main">
+            <img src="images/artical3.jpg" alt="" class="artical-img" />
+            <div class="artical-head">
+                <h1>Risus Parturient Malesuada</h1>
+                <p>Print, Marketing, Branding</p>
+            </div>
+            <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Nulla vitae elit libero, a pharetra augue. Vestibulum id ligula porta felis euismod semper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id </p>
+            <p><a href="#" class="read-more">Read more</a></p>
+        </div>
+
+        <ul class="pager">
+            <li><a href="#" class="now">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+        </ul>
 
     </div>
 

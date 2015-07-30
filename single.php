@@ -1,8 +1,11 @@
 <?php get_header(); ?>
 
 <div class="page-title">
-    <h1>Portfolio Single Title</h1>
-    <p class="page-title-map"><a href="#">Home</a>  /  <a href="#">Our Work</a>  /  Single Page</p>
+    <?php $cat = get_the_category(); ?>
+    <h1><?php echo $cat[0]->name ?></h1>
+    <p class="page-title-map"><a href="<?php echo home_url(); ?>">Home</a>  /
+        <a href="<?php echo get_category_link($cat[0]->cat_ID); ?>"><?php echo $cat[0]->name ?></a> /
+             <?php the_title(); ?></php></p>
 </div>
 
 <div class="content-main">
