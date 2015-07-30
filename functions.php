@@ -66,6 +66,21 @@ register_sidebar(array(
     )
 );
 
+/**
+ * клиенты
+ */
+register_sidebar(array(
+        'name' => 'Клиенты',
+        'id' => 'clients',
+        'description' => 'Используйте виджет текст для добавление html-кода Клиенты',
+        'before_widget' => '',
+        'after_widget' =>'',
+    )
+);
+
+
+
+
 
 
 /**
